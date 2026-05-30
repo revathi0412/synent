@@ -2,7 +2,8 @@
 <html>
 
 <head>
-<title>Login Page</title>
+
+<title>Todo App</title>
 
 <link rel="stylesheet" href="style.css">
 
@@ -10,21 +11,19 @@
 
 <body>
 
-<div class="login-box">
+<div class="container">
 
-<h1>Login</h1>
+<h1>Todo App</h1>
 
-<input type="email" placeholder="Enter Email">
+<input type="text" id="taskInput" placeholder="Enter Task">
 
-<br>
+<button onclick="addTask()">Add</button>
 
-<input type="password" placeholder="Enter Password">
-
-<br><br>
-
-<button>Login</button>
+<ul id="taskList"></ul>
 
 </div>
+
+<script src="script.js"></script>
 
 </body>
 </html>
